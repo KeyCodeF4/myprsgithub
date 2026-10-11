@@ -1,0 +1,29 @@
+
+> myprs-app@1.0.0 web
+> expo start --web --port 8081
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+[33m› [1m[@sentry/react-native/expo][22m Missing config for [1morganization, project[22m. Environment variables will be used as a fallback during the build. https://docs.sentry.io/platforms/react-native/manual-setup/[0m
+Starting project at C:\Users\Asus Tuff A15\MyPRS-app
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web .\index.js ░░░░░░░░░░░░░░░░  4.0% ( 8/55)
+Web .\index.js ▓▓▓▓░░░░░░░░░░░░ 27.0% (214/424)
+Web .\index.js ▓▓▓▓▓░░░░░░░░░░░ 32.0% (489/876)
+Web .\index.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 61.6% ( 804/1037)
+Web .\index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 85.7% (1319/1425)
+| [33m› [1m[@sentry/react-native/expo][22m Missing config for [1morganization, project[22m. Environment variables will be used as a fallback during the build. https://docs.sentry.io/platforms/react-native/manual-setup/[0m
+Web Bundled 21020ms index.js (1637 modules)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 262ms src\lib\supabase.js (76 modules)
+Web Bundled 18ms src\utils\storage.js (1 module)
+Web src\config\xpConfig.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 12ms src\config\xpConfig.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 105ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 8ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)

@@ -1,0 +1,24 @@
+
+> myprs-app@1.0.0 web
+> expo start --web --port 8081
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_ENABLE_TEST_TOOLS
+Starting project at C:\Users\Asus Tuff A15\MyPRS-app
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web .\index.js ░░░░░░░░░░░░░░░░  4.0% (2/4)
+Web .\index.js ▓▓░░░░░░░░░░░░░░ 17.1% ( 86/208)
+Web .\index.js ▓▓▓▓▓▓░░░░░░░░░░ 37.5% (324/719)
+Web .\index.js ▓▓▓▓▓▓▓░░░░░░░░░ 49.1% (664/948)
+Web .\index.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 70.2% (1054/1326)
+| [33m› [1m[@sentry/react-native/expo][22m Missing config for [1morganization, project[22m. Environment variables will be used as a fallback during the build. https://docs.sentry.io/platforms/react-native/manual-setup/[0m
+Web .\index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 96.7% (1585/1635)
+Web Bundled 21855ms index.js (1675 modules)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 64ms src\lib\supabase.js (1 module)
+Web Bundled 18ms src\utils\storage.js (1 module)
+Web src\config\xpConfig.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 8ms src\config\xpConfig.js (1 module)

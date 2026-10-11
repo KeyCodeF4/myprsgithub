@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls .claude)",
+      "Bash(cat .claude/launch.json)",
+      "Bash(npx expo *)",
+      "Bash(git --version)",
+      "Bash(where git *)",
+      "Bash(git --help)",
+      "Bash(echo \"git --help exit code: $?\")",
+      "Bash(npm view *)",
+      "Bash(node -e \"const v=JSON.parse\\(require\\('fs'\\).readFileSync\\(0,'utf8'\\)\\); console.log\\(v.filter\\(x=>x.startsWith\\('3.'\\)\\).slice\\(-8\\)\\);\")",
+      "Bash(node -e \"const v=JSON.parse\\(require\\('fs'\\).readFileSync\\(0,'utf8'\\)\\); console.log\\(v.filter\\(x=>x.startsWith\\('3.'\\) && !x.includes\\('nightly'\\) && !x.includes\\('rc'\\) && !x.includes\\('beta'\\)\\).slice\\(-8\\)\\);\")",
+      "Bash(npm install *)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.swmansion.com)",
+      "Bash(curl -s \"http://localhost:8090/index.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable\" -o /tmp/bundle_check.js -w \"HTTP %{http_code}, size: %{size_download} bytes\\\\n\")",
+      "Bash(node -e \"const v=JSON.parse\\(require\\('fs'\\).readFileSync\\(0,'utf8'\\)\\); console.log\\(v.filter\\(x=>x.startsWith\\('0.5.'\\)\\).join\\(', '\\)\\);\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8090/index.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable\")",
+      "Bash(curl -s \"http://localhost:8090/index.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable\" -o /dev/null)",
+      "Bash(curl -s \"http://localhost:8090/index.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable\")",
+      "Bash(cd /tmp/worklets052 && diff -rq package/lib/module \"/c/Users/Asus Tuff A15/MyPRS-app/node_modules/react-native-worklets/lib/module\" 2>/dev/null | head -30)",
+      "Bash(python -c ' *)",
+      "Bash(npx patch-package *)",
+      "Bash(npx jest *)",
+      "Bash(perl -0pi -e 's/\\(userTitle=\\\\{todayModalCard\\\\.userTitle\\\\}\\)/$1\\\\n                headlineFactId={todayModalCard.headlineFactId}/; s/\\(userTitle=\\\\{newWrappedCard\\\\.userTitle\\\\}\\)/$1\\\\n                  headlineFactId={newWrappedCard.headlineFactId}/' src/components/HomeScreen.js)",
+      "Bash(perl -0pi -e 's/\\(userTitle=\\\\{viewingCard\\\\.userTitle\\\\}\\)/$1\\\\n              headlineFactId={viewingCard.headlineFactId}/' src/components/WrappedHistory.js)",
+      "Bash(perl -0pi -e 's/\\(  const \\\\[showLocker, setShowLocker\\\\] = useState\\\\\\(false\\\\\\);\\)/$1\\\\n  const [showAccount, setShowAccount] = useState\\(false\\);/' src/components/HomeScreen.js)",
+      "Bash(perl -0pi -e 's/\\(      <CustomizationLocker visible=\\\\{showLocker\\\\} onClose=\\\\{\\\\\\(\\\\\\) => setShowLocker\\\\\\(false\\\\\\)\\\\} onOpenMedals=\\\\{onOpenMedals\\\\} \\\\/>\\)/$1\\\\n\\\\n      <AccountScreen visible={showAccount} onClose={\\(\\) => setShowAccount\\(false\\)} \\\\/>/' src/components/HomeScreen.js)",
+      "Bash(perl -0pi -e \"s/\\(import CustomizationLocker from '.\\\\/customization-locker';\\)/\\\\$1\\\\nimport AccountScreen from '.\\\\/account-screen';/\" src/components/HomeScreen.js)"
+    ]
+  }
+}

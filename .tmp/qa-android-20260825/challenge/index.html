@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#090A0D" />
+  <title>MyPRS Friend Challenge</title>
+  <meta name="description" content="A private MyPRS friend challenge is waiting for you." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MyPRS" />
+  <meta property="og:title" content="MyPRS Friend Challenge" />
+  <meta property="og:description" content="Open MyPRS to compare your latest Wrapped cards." />
+  <meta property="og:image" content="https://myprs.app/myprs-link-preview.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MyPRS Friend Challenge" />
+  <meta name="twitter:image" content="https://myprs.app/myprs-link-preview.png" />
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:#090a0d;color:#fff;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;display:grid;place-items:center;padding:24px}.card{width:min(440px,100%);padding:32px 24px;border:1px solid #292c33;border-radius:28px;background:linear-gradient(145deg,#191b21,#101116);box-shadow:0 28px 80px #0008;text-align:center}.mark{width:116px;height:68px;margin:auto;border:1px solid #292929;border-radius:20px;background:#000;display:grid;place-items:center;font-weight:900;font-size:22px;letter-spacing:-1px}.eyebrow{margin-top:24px;color:#ff6574;font-weight:800;font-size:10px;letter-spacing:3px}.title{font-size:34px;line-height:1.05;margin:10px 0}.copy{color:#a0a3ab;line-height:1.55;margin:16px auto 26px;max-width:330px}.button{display:block;text-decoration:none;color:#fff;background:#e63946;border-radius:16px;padding:16px;font-weight:800;margin-top:10px}.secondary{background:#24272e}.small{color:#686b74;font-size:11px;line-height:1.5;margin-top:22px}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="mark">MyPRS</div>
+    <div class="eyebrow">PRIVATE FRIEND BATTLE</div>
+    <h1 class="title">You’ve been challenged.</h1>
+    <p class="copy">Open MyPRS to compare your latest matching Wrapped card. Only comparison totals are shared—never the workout details behind them.</p>
+    <a class="button" id="open" href="#">Open in MyPRS</a>
+    <a class="button secondary" href="https://play.google.com/store/apps/details?id=com.vermeerdash.myprs">Get it on Google Play</a>
+    <a class="button secondary" href="https://apps.apple.com/gb/search?term=MyPRS">Find it on the App Store</a>
+    <p class="small">Challenge links expire after seven days and can be accepted once.</p>
+  </main>
+  <script>
+    const token = new URLSearchParams(location.search).get('token') || '';
+    const appUrl = `myprs://challenge?token=${encodeURIComponent(token)}`;
+    const openButton = document.getElementById('open');
+    openButton.href = appUrl;
+    if (token && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      setTimeout(() => { location.href = appUrl; }, 120);
+    }
+  </script>
+</body>
+</html>

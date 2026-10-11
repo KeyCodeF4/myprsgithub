@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "MyPRS",
+    "slug": "myprs",
+    "description": "Log gym sessions quickly, track personal records, and turn your progress into collectible MyPRS Wrapped cards.",
+    "version": "1.0.0",
+    "scheme": "myprs",
+    "orientation": "portrait",
+    "icon": "./assets/myprs-icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/myprs-splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0D0D"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vermeerdash.myprs",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.vermeerdash.myprs",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/myprs-adaptive-icon.png",
+        "backgroundColor": "#0D0D0D"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/myprs-favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0D0D0D",
+          "image": "./assets/myprs-splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-secure-store",
+      "expo-notifications",
+      "@sentry/react-native",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "17de78fc-e32f-4ca2-8ffd-c2107985fdbb"
+      }
+    }
+  }
+}

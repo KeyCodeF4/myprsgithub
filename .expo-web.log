@@ -1,0 +1,127 @@
+
+> myprs-app@1.0.0 web
+> expo start --web --port 8090
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY
+Starting project at C:\Users\Asus Tuff A15\MyPRS-app
+Starting Metro Bundler
+Waiting on http://localhost:8090
+Logs for your project will appear below.
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web .\index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (430/565)
+Web Bundled 5603ms index.js (972 modules)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 75ms src\lib\supabase.js (1 module)
+Web Bundled 13ms src\utils\storage.js (1 module)
+Web src\config\xpConfig.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 9ms src\config\xpConfig.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 33ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 34ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 52ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 3ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 54ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 37ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 7ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 3ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 3ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 40ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 40ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 53ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 1ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 35ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 8ms src\lib\supabase.js (1 module)
+Web Bundled 4ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 37ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web src\config\xpConfig.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 2ms src\config\xpConfig.js (1 module)
+Web src\lib\supabase.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 202ms src\lib\supabase.js (1 module)
+Web Bundled 174ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 44ms index.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 53ms index.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 39ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 8ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 41ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 9ms src\lib\supabase.js (1 module)
+Web Bundled 3ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 30ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 8ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 35ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 5ms src\lib\supabase.js (1 module)
+Web Bundled 1ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 39ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 1ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 1ms src\utils\storage.js (1 module)
+Web .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 34ms index.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 6ms src\lib\supabase.js (1 module)
+Web Bundled 2ms src\utils\storage.js (1 module)
